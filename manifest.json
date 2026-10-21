@@ -1,6 +1,6 @@
 {
     "name": "Modern scrollbar",
-    "version": "1.0.0.7",
+    "version": "1.0.0.8",
     "manifest_version": 3,
     "description": "A modern look for Chromium's scrollbar. Compatible with light and dark mode.",
     "icons": {
@@ -12,17 +12,7 @@
         "256": "icons/icon256x256.png"
     },
     "action": {
-        "default_title": "Modern scrollbar",
-        "default_popup": "popup.html"
-    },
-    "permissions": [
-        "scripting"
-    ],
-    "host_permissions": [
-        "https://*.reddit.com/*"
-    ],
-    "background": {
-        "service_worker": "background.js"
+        "default_title": "Modern scrollbar"
     },
     "content_scripts": [
         {
